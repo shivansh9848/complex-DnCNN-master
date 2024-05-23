@@ -17,7 +17,6 @@ import torch.nn as nn
 from scipy import io
 from utils import cov
 
-
 class ComplexBN(torch.nn.Module):
 
     def __init__(self, num_features, eps=1e-05, momentum=0.1, affine=True):
